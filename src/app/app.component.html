@@ -1,0 +1,92 @@
+<div class = "box">
+  <div class = "container1">
+   <h2>Register</h2>
+  </div>
+  <form class="row g-3 form1">
+      <div class="col-md-4">
+        <label for="empID" class="form-label">Employee ID</label>
+        <input type="text" class="form-control" id="empname">
+      </div>
+      <div class="col-md-4">
+        <label for="Job" class="form-label">Job-Title</label>
+        <input type="text" class="form-control" id="Job">
+      </div>
+      <div class="col-md-4">
+        <label for="contact" class="form-label">Contact Number</label>
+        <input type="number" class="form-control" id="contact">
+      </div>
+        <div class="col-md-4">
+          <label for="depart" class="form-label">Department</label>
+          <select class="form-select" id="depart"> 
+            <option selected></option>
+            <option value="1">CSE</option>
+            <option value="2">IT</option>
+            <option value="3">EIE</option>
+            <option value="4">ECE</option>
+            <option value="5">EEE</option>
+            <option value="6">AI</option>
+         </select>
+        </div>
+        <div class="col-md-4">
+         <label for="salary" class="form-label">Salary</label>
+          <input type="number" class="form-control" id="salary">
+        </div>
+        <div class="col-md-4">
+          <label for="hire-date" class="form-label">Hire-Date</label>
+          <input type="date" class="form-control" id="hire-date">
+        </div>
+        <div class="col-md-4">
+          <label for="dob" class="form-label">Date of Birth</label>
+          <input type="date" class="form-control" id="dob">
+        </div>
+        <div class="col-md-4">
+          <label for="gender" class="form-label">Gender</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Male
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Female
+            </label>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email">
+        </div> 
+        <div class="address row g-3">
+          <h3>Address</h3>
+          <div class="col-md-12">
+            <label for="street" class="form-label">Street</label>
+            <input type="text" class="form-control" id="street">
+          </div> 
+          <div class="col-md-4">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected></option>
+              <option value="1">India</option>
+              <option value="2">USA</option>
+              <option value="3">UK</option>
+              <option value="4">Australia</option>
+              <option value="5">UAE</option>
+              <option value="6">Srilanka</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <label for="postalnum" class="form-label">Postal Number</label>
+            <input type="numbet" class="form-control" id="postalnum">
+          </div>
+        </div>
+        <div class="d-grid gap-2 col-md-2 mx-auto button">
+          <button class="btn btn-primary" type="button">Submit</button>
+        </div>
+    </form>
+</div>
