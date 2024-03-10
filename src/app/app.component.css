@@ -7,12 +7,12 @@
     border-radius: 15px;
     border: 1px solid rgb(31, 28, 28);
 }
-.container1 {
+.container {
     margin-top: 1%;
     border-radius: 15px;
     padding:1%;
     border: 0px solid rgb(211, 211, 211);
-    background-color: rgb(223, 81, 25);
+    background-color: lightgray;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -31,4 +31,9 @@
 }
 h3 {
     font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
