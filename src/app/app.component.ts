@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'register_form';
+
+  formdata:any = {};
+
+  submit(){
+    console.log(this.formdata);
+  }
 }

@@ -1,11 +1,9 @@
 .box {
-    margin-top: 1%;
-    margin-left:5% ;
-    margin-right:5%;
+    margin: 1% 5% 0% 5%;
     padding-top:1%;
     padding-bottom: 5%;
     border-radius: 15px;
-    border: 1px solid rgb(31, 28, 28);
+    border: 1px solid #c9c4c4;
 }
 .container {
     margin-top: 1%;
