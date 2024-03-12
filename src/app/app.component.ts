@@ -8,9 +8,22 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'register_form';
 
-  formdata:any = {};
+  formdata: any = {};
+  futureDate: boolean = false;
 
-  submit(){
+  submit() {
     console.log(this.formdata);
+
+    let inputDate = new Date(this.formdata.hir_date);
+    let currentDate = new Date();
+    
+    if (inputDate < currentDate) {
+      this.futureDate = false;
+      console.log('The input date is in the past.');
+    } else {
+      this.futureDate = true;
+      console.log('The input date is in the future.');
+    }
+
   }
 }
